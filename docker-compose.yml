@@ -1,18 +1,18 @@
 version: "3"
 
 services:
-  pocketbase-vue-starter:
-    image: ghcr.io/mrsessions/pocketbase-vue-starter:latest
+  home-vue:
+    image: ghcr.io/mrsessions/home-vue:latest
     build:
       context: ./
-    container_name: pocketbase-vue-starter
+    container_name: home-vue
     environment:
       - POCKETBASE_DISABLE_UI=false # Set to true to disable the PocketBase UI
     ports:
       - 8090:8090
     volumes:
-      - pocketbase-vue-starter:/app/pb_data
+      - home-vue:/app/pb_data
     restart: unless-stopped
 
 volumes:
-  pocketbase-vue-starter:
+  home-vue:
