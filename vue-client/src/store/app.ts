@@ -16,7 +16,7 @@ export const useAppStore = defineStore("app", () => {
   const appSettings = ref(
     useLocalStorage("appSettings", {
       theme: "dark",
-      name: "PocketBase Vue Starter",
+      name: "Home Vue",
       isSetup: false,
     })
   );

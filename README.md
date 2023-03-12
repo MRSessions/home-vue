@@ -31,30 +31,30 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/MRSessions/pocketbase-vue-starter">
+  <!-- <a href="https://github.com/MRSessions/home-vue">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h1 align="center">(WIP) PocketBase Vue Starter</h1>
+  <h1 align="center">(WIP) Home Vue</h1>
 
   <p align="center">
-    A starter template for using Vue/Vuetify with Pocketbase as a backend.
+    Home Vue, Family Information and Tools
     <!-- <br /> -->
-    <!-- <a href="https://github.com/MRSessions/pocketbase-vue-starter"><strong>Explore the docs »</strong></a> -->
+    <!-- <a href="https://github.com/MRSessions/home-vue"><strong>Explore the docs »</strong></a> -->
     <br />
     <br />
-    <!-- <a href="https://github.com/MRSessions/pocketbase-vue-starter">View Demo</a>
+    <!-- <a href="https://github.com/MRSessions/home-vue">View Demo</a>
     · -->
-    <a href="https://github.com/MRSessions/pocketbase-vue-starter/issues">Report Bug</a>
+    <a href="https://github.com/MRSessions/home-vue/issues">Report Bug</a>
     ·
-    <a href="https://github.com/MRSessions/pocketbase-vue-starter/issues">Request Feature</a>
+    <a href="https://github.com/MRSessions/home-vue/issues">Request Feature</a>
   </p>
 </div>
 
 
 
 <!-- TABLE OF CONTENTS -->
-<details>
+<!-- <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -82,7 +82,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+</details> -->
 
 
 
@@ -91,16 +91,16 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-I started working with PocketBase and Vue/Vuetify on a couple of side projects and found that I was referencing one when creating a new project from scratch. After that, I decided that I wanted to try and create a starter template for anyone to be able to use.
+TBD
+
+<!-- I started working with PocketBase and Vue/Vuetify on a couple of side projects and found that I was referencing one when creating a new project from scratch. After that, I decided that I wanted to try and create a starter template for anyone to be able to use.
 
 Here's why:
 * Your time should be focused on the core of your application, not having to create everything from scratch.
 * Comes out of the box with a Vue Admin Setup page (but is still customizable through the `pocketbase.go` file)
 * Comes with a default layout to get you up and started quickly
 
-Of course, no one template will serve all projects since your needs may be different. I'll be adding more customizability in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-<!-- Thanks to all the people who have contributed to expanding this template! -->
+Of course, no one template will serve all projects since your needs may be different. I'll be adding more customizability in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,9 +118,10 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 
 <!-- GETTING STARTED -->
+TBD
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+<!-- These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -132,7 +133,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/MRSessions/pocketbase-vue-starter.git
+   git clone https://github.com/MRSessions/home-vue.git
     ```
 
 #### Docker Dev Environments
@@ -165,7 +166,7 @@ These instructions will get you a copy of the project up and running on your loc
     or to recreate the container
     ```sh
     docker-compose up --build --force-recreate
-    ```
+    ``` -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,8 +174,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+TBD
 
-### PocketBase
+<!-- ### PocketBase
 
 #### Defaults
 
@@ -216,9 +218,9 @@ I have setup PocketBase to remove(rewrite) the PocketBase default routes. By def
   ```yml
   version: "3"
 
-  pocketbase-vue-starter:
-    image: ghcr.io/mrsessions/pocketbase-vue-starter:latest
-    container_name: pocketbase-vue-starter
+  home-vue:
+    image: ghcr.io/mrsessions/home-vue:latest
+    container_name: home-vue
     restart: unless-stopped
     environment:
       - POCKETBASE_DISABLE_UI=false # Set to true to disable PocketBase UI
@@ -228,7 +230,7 @@ I have setup PocketBase to remove(rewrite) the PocketBase default routes. By def
       - 8090:8090
 
   volumes:
-    pocketbase-vue-starter:
+    home-vue:
   ```
 </details>
 
@@ -284,7 +286,7 @@ I have setup PocketBase to remove(rewrite) the PocketBase default routes. By def
     ```
 > *Note: This will generate a typescript file in the rot directory called `pocketbase-types.ts`. This file will be used to generate the typescript definitions for the PocketBase schema to use in your code.*
 
-### Vue
+### Vue -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -293,7 +295,9 @@ I have setup PocketBase to remove(rewrite) the PocketBase default routes. By def
 <!-- ROADMAP -->
 ## Roadmap
 
+TBD
 
+<!-- 
 - [x] Add section on migrations.
 - [x] Add default layout
 - [x] Create initialize PB page in Vue to create first PocketBase Admin
@@ -302,7 +306,7 @@ I have setup PocketBase to remove(rewrite) the PocketBase default routes. By def
 - [ ] Create a Docker Dev Environment
 - [ ] Add a section for a quick how to use the PocketBase API in Vue (Refer to the [PocketBase API Docs](https://pocketbase.io/docs/api))
 
-See the [open issues](https://github.com/MRSessions/pocketbase-vue-starter/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/MRSessions/home-vue/issues) for a full list of proposed features (and known issues). -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -311,7 +315,9 @@ See the [open issues](https://github.com/MRSessions/pocketbase-vue-starter/issue
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+TBD
+
+<!-- Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -321,7 +327,7 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature or some AmazingBugFix'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature` or `git push origin bug/AmazingBugFix`)
 5. Open a Pull Request
-   1. If your change includes quite a bit of change, please document the changes in detail in the pull request.
+   1. If your change includes quite a bit of change, please document the changes in detail in the pull request. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -330,7 +336,9 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+TBD
+
+<!-- Distributed under the MIT License. See `LICENSE` for more information. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -339,9 +347,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Matt Sessions - [@MRSessions](https://github.com/MRSessions) - pbvuestarter@sessionstech.com
+Matt Sessions - [@MRSessions](https://github.com/MRSessions) - tbd@sessionstech.com
 
-Project Link: [https://github.com/MRSessions/pocketbase-vue-starter](https://github.com/MRSessions/pocketbase-vue-starter)
+Project Link: [https://github.com/MRSessions/home-vue](https://github.com/MRSessions/home-vue)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -368,22 +376,22 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[project-url]: https://github.com/MRSessions/pocketbase-vue-starter
+[project-url]: https://github.com/MRSessions/home-vue
 [status-shield]: https://img.shields.io/badge/status-active-success.svg?style=for-the-badge
-[forks-shield]: https://img.shields.io/github/forks/MRSessions/pocketbase-vue-starter.svg?style=for-the-badge
-[forks-url]: https://github.com/MRSessions/pocketbase-vue-starter/network/members
-[stars-shield]: https://img.shields.io/github/stars/MRSessions/pocketbase-vue-starter.svg?style=for-the-badge
-[stars-url]: https://github.com/MRSessions/pocketbase-vue-starter/stargazers
-[issues-shield]: https://img.shields.io/github/issues/MRSessions/pocketbase-vue-starter.svg?style=for-the-badge
-[issues-url]: https://github.com/MRSessions/pocketbase-vue-starter/issues
-[license-shield]: https://img.shields.io/github/license/MRSessions/pocketbase-vue-starter.svg?style=for-the-badge
-[license-url]: https://github.com/MRSessions/pocketbase-vue-starter/blob/master/LICENSE
-[build-shield]: https://img.shields.io/github/actions/workflow/status/MRsessions/pocketbase-vue-starter/build-single-docker-image.yml?style=for-the-badge
-[build-url]: https://github.com/MRSessions/pocketbase-vue-starter/actions
-[prerelease-shield]: https://img.shields.io/github/v/release/MRSessions/pocketbase-vue-starter?color=s&include_prereleases&label=Pre-release&logo=s&logoColor=s&style=for-the-badge
-[release-date-shield]: https://img.shields.io/github/release-date-pre/mrsessions/pocketbase-vue-starter?label=Released&style=for-the-badge
-[docker-release-shield]: https://img.shields.io/github/v/tag/mrsessions/pocketbase-vue-starter?include_prereleases&label=docker&style=for-the-badge
-[release-url]: https://github.com/MRSessions/pocketbase-vue-starter/pkgs/container/pocketbase-vue-starter
+[forks-shield]: https://img.shields.io/github/forks/MRSessions/home-vue.svg?style=for-the-badge
+[forks-url]: https://github.com/MRSessions/home-vue/network/members
+[stars-shield]: https://img.shields.io/github/stars/MRSessions/home-vue.svg?style=for-the-badge
+[stars-url]: https://github.com/MRSessions/home-vue/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MRSessions/home-vue.svg?style=for-the-badge
+[issues-url]: https://github.com/MRSessions/home-vue/issues
+[license-shield]: https://img.shields.io/github/license/MRSessions/home-vue.svg?style=for-the-badge
+[license-url]: https://github.com/MRSessions/home-vue/blob/master/LICENSE
+[build-shield]: https://img.shields.io/github/actions/workflow/status/MRsessions/home-vue/build-single-docker-image.yml?style=for-the-badge
+[build-url]: https://github.com/MRSessions/home-vue/actions
+[prerelease-shield]: https://img.shields.io/github/v/release/MRSessions/home-vue?color=s&include_prereleases&label=Pre-release&logo=s&logoColor=s&style=for-the-badge
+[release-date-shield]: https://img.shields.io/github/release-date-pre/mrsessions/home-vue?label=Released&style=for-the-badge
+[docker-release-shield]: https://img.shields.io/github/v/tag/mrsessions/home-vue?include_prereleases&label=docker&style=for-the-badge
+[release-url]: https://github.com/MRSessions/home-vue/pkgs/container/home-vue
 
 
 [Vue.js]: https://img.shields.io/badge/Vue.js-3.2.38+-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
