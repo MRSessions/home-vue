@@ -7,15 +7,11 @@
 
     <v-spacer></v-spacer>
 
-    <!-- TODO: Switch between light and dark with these two buttons -->
-    <!-- <v-btn variant="text" icon="mdi-weather-night"></v-btn>
-
-      <v-btn variant="text" icon="mdi-weather-sunny"></v-btn>
-
-      <v-btn variant="text" icon="mdi-dots-vertical"></v-btn> -->
       <v-btn variant="text"
       :icon="appStore.appSettings.theme === 'dark' ? 'mdi-weather-sunny' : 'mdi-weather-night'"
       @click="changeTheme"></v-btn>
+      <v-btn variant="text"
+      icon="mdi-cog-outline"></v-btn>
   </v-app-bar>
 
   <v-navigation-drawer color="drawer" v-model="drawer" :location="$vuetify.display.smAndDown ? 'top' : 'start'"
@@ -47,17 +43,17 @@ const appStore = useAppStore()
 const drawer = ref(!vuetify.display.smAndDown.value)
 const items = ref([
   {
-    title: 'Home',
-    value: '/home',
+    title: 'Dashboard',
+    value: '/dashboard',
   },
-  {
-    title: 'About',
-    value: '/about',
-  },
-  {
-    title: 'Contact',
-    value: '/contact',
-  },
+  // {
+  //   title: 'About',
+  //   value: '/about',
+  // },
+  // {
+  //   title: 'Contact',
+  //   value: '/contact',
+  // },
 ])
 
 function changeTheme() {

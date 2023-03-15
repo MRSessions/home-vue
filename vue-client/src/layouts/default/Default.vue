@@ -13,14 +13,14 @@ import router from '@/router';
 
 const appStore = useAppStore()
 
-try {
-  await appStore.checkIsSetup()
-  if (!appStore.appSettings.isSetup) {
-    router.push('/admin/setup-admin')
-  }
-} catch (error) {
-  if (error instanceof Error) {
-    router.push('/n/error?msg=' + error.message)
-  }
-}
+// try {
+//   await appStore.checkIsSetup()
+//   if (!appStore.appSettings.isSetup) {
+//     router.push('/admin/setup-admin')
+//   }
+// } catch (error) {
+//   if (error instanceof Error) {
+//     router.push('/n/error?msg=' + error.message)
+//   }
+// }
 </script>
